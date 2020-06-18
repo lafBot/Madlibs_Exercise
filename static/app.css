@@ -1,0 +1,25 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1587242504703-a62c58b66559?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#content {
+    margin: auto;
+    padding: 50px;
+    background-color: rgb(229, 224, 224, .5);
+    width: 500px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+input {
+    border-radius: 5px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(89, 172, 211, .9);
+}

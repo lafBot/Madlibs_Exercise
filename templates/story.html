@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block name %}Story{% endblock %}
+
+{% block content %}
+    <h1>Your Madlib Story</h1>
+    <p>
+        {{ final_story }}
+        <!-- Once upon a time in a long-ago {{place}}, there lived a
+       large {{adjective}} {{noun}}. It loved to {{verb}} {{plural_noun}}. -->
+    </p>
+    <br>
+    <br>
+    <p>
+        <a href="/"><button>Make A New One!</button></a>
+    </p>
+
+{% endblock %}

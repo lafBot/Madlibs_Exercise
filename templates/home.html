@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock %}
+
+{% block content %}
+
+    <h1>Madlibs</h1>
+        <form action="/form">
+            <label for="story_choice">Story: </label>
+            <select name="story_choice">
+                <option value="history">A Historic Tale</option>
+                <option value="adventure">An Exciting Adventure</option>
+            </select>
+        <button>Select!</button>
+        </form>
+
+{% endblock %}
